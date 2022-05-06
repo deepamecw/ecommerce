@@ -1,0 +1,37 @@
+{% extends 'storeapp/main.html' %}
+{% block content %}
+
+<div class="container" style="background-color:plum; height:80%; width:50%; margin-top:100px;" >
+    <div class="justify-content" style="margin:30px;border:50px; padding:50px">
+        <div class="md-6">
+            <div class="">
+                <div class="card-mt-3 shadow">
+                    <div class="card-body">
+                        <form action="" method="POST" form-control="my-2">
+                            {% csrf_token %}
+                            <div class="text-center">
+                                <h4>Login</h4>
+                            </div>
+                            <hr>
+                            <div class="form-group" style="margin-bottom: 20px;width:400px; padding-left:100px;">
+                                <label for="" >Userneme:</label>
+
+                                
+                                <input type="text" name="username" placeholder="enter username...">
+                            </div>
+                            
+                            <div class="form-group" style="margin-bottom: 20px;width:400px; padding-left:100px;">
+                                <label for="" >Password:</label>
+                                <input type="password" name="password" placeholder="enter password...">
+                           
+                            <button type="submit"style="margin-left:130px; margin-top:30px;" class="btn float-center shadow btn-success px-4 ">Login</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,87 @@
+
+.checkoutform label{
+
+    font-size: 14px !important; 
+    
+    font-weight: 600;
+
+}
+
+.checkoutform input{
+
+    font-size: 14px !important; 
+}
+a{
+    text-decoration: none;
+}
+
+    
+    
+body{
+    background-color:white;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+ }
+
+
+
+.product-viewtag{
+    float: right;
+    background-color: red;
+    color:#fff;
+    font-size: 11px;
+    line-height:1;
+    position:absolute;
+    text-align:center;
+    text-transform: uppercase;
+    margin-left:15rem;
+    padding:7px 10px;
+    font-weight:600;
+    min-width:45px;
+    
+    
+
+    
+}
+.py-5{
+    height:80%;
+    width:80%;
+    border-color: black;
+   
+    margin: 20px 20px 20px 20px;
+    border-style:solid;
+}
+.trending_tag{
+    background-color: red;
+    color:#fff;
+    font-size: 11px;
+    line-height:1;
+    text-transform: uppercase;
+    margin:10px;
+    padding:7px 10px;
+    font-weight:600;
+    float: right;
+    position: relative;
+    top:-10px;
+    
+}
+.col-md-8{
+    background-color:whitesmoke;
+    height:400px;
+    width: 700px;
+    
+}
+.col-md-4{
+    background-color:white;
+    
+}
+.w-100{
+   text-align: center;
+   padding-top: 50px;
+   
+}
+    
+.active{
+   font-weight: 800px;
+}
